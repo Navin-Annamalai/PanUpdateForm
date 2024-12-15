@@ -50,7 +50,7 @@
         <div><i>Fields marked with<span>*</span>(asterisk) are mandatory, Tod avoid mistake(s), please refer
                 <u>guidlines</u> and <u>instructions</u></i></div>
     </div>
-    <table style="width: 100%;">
+    <table style="width: 100%; font-family:Arial, Helvetica, sans-serif;font-size: small;">
         <tbody>
             <tr>
                 <td></td>
@@ -104,7 +104,7 @@
                         <span>*</span>
                         <b>Name as you would like it printed on the card</b><span style="color: blue;"> (Prefix like
                             Shri,
-                            Smt,Kumari,Late, Dr, CA, Ms, Mr, Mrs, M/s, Alias etc. are not allowed)</span><br>
+                            Smt,Kumari,Late, Dr, CA, Ms, Mr, Mrs, M/s, Alias etc.are not allowed)</span><br>
                         <input type="text" name="" id="text1">
                     </div>
                 </td>
@@ -124,9 +124,9 @@
                 <td></td>
                 <td colspan="2">
                     <span>*</span>
-                    <b>Father's Name</b><span style="color: blue;">(Mandatory field. Even married women should give
+                    <b>Father's Name</b><span style="color: blue;">Mandatory feild. Even married womwn should give
                         father's name
-                        only)</span>
+                        only</span>
                 </td>
             </tr>
             <tr>
@@ -150,7 +150,7 @@
                 <td></td>
                 <td><span>*</span>
                     <b>4. Select Parent name which is to be printed on the card</b><br>
-                    <span style="color: blue;">(In case no option is provided then PAN card will be issued with
+                    <span style="color: blue;">(In case no option is provided then PAN cared will be issued with
                         father's name)</span>
                 </td>
                 <td style="padding-right: 500px;">
@@ -233,9 +233,9 @@
                 <td style="padding-right: 500px;">
                     <label for="M">Male</label>
                     <input type="radio" name="" id="M">
-                    <label for="F"style="padding-left: 30px;">Female</label>
+                    <label for="F"style="padding-left: 20px;">Female</label>
                     <input type="radio" name="" id="F">
-                    <label for="T" style="padding-left: 30px;">TransGender</label>
+                    <label for="T" style="padding-left: 20px;">TransGender</label>
                     <input type="radio" name="" id="T">
                 </td>
             </tr>
@@ -247,10 +247,82 @@
                 <td><input type="checkbox" name="" id="check7"></td>
                 <td colspan="2"><b>8. Signature Mismatch</b></td>
             </tr>
+            <tr>
+                <td><input type="checkbox" name="" id="check7"></td>
+                <td><span>*</span><b>9. Address for Communication</b></td>
+                <td><label for="res">Residential</label>
+                <input type="radio" name="" id="Res">
+                <label for="office">Office</label>
+                <input type="radio" name="" id="office">
+            </td>
+
+            </tr>
+            <tr>
+                <td></td>
+                <td><b>Office Name</b><i>(to be filled only in case of office address)</i></td>
+                <td> <input type="text" name="" id="Off_N"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><b>Flat/Door/Block No.</b></td>
+                <td> <input type="text" name="" id="Flatno"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><b>Name of Premises/Building/Village</b></td>
+                <td> <input type="text" name="" id="N_Bul_Vill"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><b>Road/Street/Lane/Post Office</b></td>
+                <td> <input type="text" name="" id="Road"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><b>Area/Locality/Taluka/Sub-Divison</b></td>
+                <td> <input type="text" name="" id="Area"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><b>Town/City/District</b></td>
+                <td> <input type="text" name="" id="Town"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><b>State</b></td>
+                <td>
+                    <select id="State" name="State">
+                        <option value="">--Please select--</option>
+                        <option value="TN">Tamil Nadu</option>
+                        <option value="KA">Karnataka</option>
+                        <option value="TS">Telungana</option>
+                        <option value="K">Kerala</option>
+                        <option value="Hyd">Hyderabad</option>
+                        </select>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><b>PIN</b><i>(Indicating PIN is Mandatory)</i></td>
+                <td> <input type="text" name="PIN" id="pin" size="6" maxlength="6"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><b>Country</b></td>
+                <td>
+                    <select id="country" name="country">
+                        <option value="">--Please select--</option>
+                        <option value="TN">India</option>
+                        <option value="KA">Others</option>
+                        </select>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><b>ZIP</b></td>
+                <td> <input type="text" name="PIN" id="pin" size="6" maxlength="6"></td>
+            </tr>
         </tbody>
-
     </table>
-
 </body>
-
 </html>
